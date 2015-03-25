@@ -377,6 +377,7 @@ class SimpleAuth extends PluginBase{
 
 		unset($permissions["simpleauth.chat"]);
 		unset($permissions["simpleauth.move"]);
+		unset($permissions["simpleauth.damage"]);
 		unset($permissions["simpleauth.lastip"]);
 
 		//Do this because of permission manager plugins
